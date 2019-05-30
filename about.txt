@@ -1,0 +1,31 @@
+*************************************************
+DESCRIPTION:
+this is a creative registration form accessing clients' personal details
+and image
+as contain entries:
+name
+address
+aadhar card no.
+phone number
+etc.
+
+**************************************************
+
+this is a python project using standard libraries:
+TKINTER
+PYMYSQL
+IMAGETK
+FILEDIALOG
+
+*************************************************
+
+WORKING:
+1.it takes coustomer's entries as their all details
+ and provides a database storage to these entries.
+2.ask for image selection from coustomer 
+     if size of image is large
+     it resizes that image and make that suitable for framed.
+3.if condition does not satisfies then it return a popup message
+   "try again"
+4.if coustomer properly fill entries then it saves all the entries along
+  with the image and provide directory for storing data. 
